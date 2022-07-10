@@ -15,7 +15,7 @@
             <form method="post" action="/setting/data/bpjs">
                 @csrf
                 <div class="card-body">
-                    <div class="form-group">
+                    {{-- <div class="form-group">
                         <label>CONS ID</label>
                         <input type="text" class="form-control" name="cons_id"
                             value="{{$data == null ? '': $data->cons_id}}">
@@ -24,7 +24,7 @@
                         <label>SECRET KEY</label>
                         <input type="text" class="form-control" name="secret_key"
                             value="{{$data == null ? '': $data->secret_key}}">
-                    </div>
+                    </div> --}}
                     <div class="form-group">
                         <label>USER PCARE</label>
                         <input type="text" class="form-control" name="user_pcare"
